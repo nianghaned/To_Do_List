@@ -1,13 +1,38 @@
 body {
   display: flex;
-
   justify-content: center;
   align-items: center;
+  color: #faf3f0;
 }
 
 .container {
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  color: #d4e2d4;
+  border: #d4e2d4 2px solid;
+  border-radius: 20px;
+  padding: 20px;
+}
+
+input[type="text"] {
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+button {
+  background-color: #ffcacc;
+  border-radius: 10px;
+  border: none;
+  box-shadow: 2px;
+  padding: 8px 15px;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: #dbc4f0;
+  transition: ease-in;
 }
